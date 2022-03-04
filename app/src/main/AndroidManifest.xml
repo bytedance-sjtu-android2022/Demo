@@ -19,6 +19,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".lesson2.ActivityB" />
+        <activity android:name=".lesson4.handler.LessonListActivity" />
+        <activity android:name=".lesson4.handler.HomePageActivity" />
+        <activity android:name=".lesson4.handler.SplashActivity" />
+        <activity android:name=".lesson4.homework.ClockActivity" />
+        <activity android:name=".lesson4.handler.DownloadVideoActivity" />
+        <activity android:name=".lesson4.thread.ThreadActivity" />
+        <activity android:name=".lesson4.view.CustomViewActivity" />
     </application>
 
 </manifest>
