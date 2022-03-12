@@ -9,7 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Demo">
-        <activity android:name=".lesson2.RecyclerViewDemoActivity"></activity>
+        <activity android:name=".lesson3.Lesson3DemoActivity"/>
+        <activity android:name=".lesson3.animation.AnimationActivity" />
+        <activity android:name=".lesson3.fragment.LifecycleFragmentActivity" />
+        <activity android:name=".lesson3.fragment.StaticColorActivity" />
+        <activity android:name=".lesson3.fragment.DynamicAddFragmentActivity" />
+        <activity android:name=".lesson3.fragment.FragmentAActivity" />
+        <activity android:name=".lesson3.masterdetail.ItemDetailActivity" />
+        <activity android:name=".lesson3.masterdetail.ItemsListActivity" />
+        <activity android:name=".lesson3.animation.AnimatorTaskActivity" />
+        <activity android:name=".lesson3.animation.FrameAnimationActivity" />
+        <activity android:name=".lesson3.animation.LikeActivity" />
+        <activity android:name=".lesson3.animation.LottieActivity" />
+        <activity android:name=".lesson3.animation.PropertyActivity" />
+        <activity android:name=".lesson3.animation.RotationPropertyActivity" />
+        <activity android:name=".lesson3.animation.ScalePropertyActivity" />
+        <activity android:name=".lesson3.animation.TransitionActivity" />
+
+        <activity android:name=".lesson2.RecyclerViewDemoActivity" />
         <activity android:name=".lesson2.BasicUIDemoActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
