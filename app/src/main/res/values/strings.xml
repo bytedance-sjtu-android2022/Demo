@@ -49,4 +49,10 @@
     <string name="test_btn_2">Test Button2</string>
     <string name="start_animation_1">Start Animation</string>
     <string name="start_animation_2">Start Property Animation</string>
+    <string name="label_okhttp">OKHttp</string>
+    <string name="label_retrofit">Retrofit</string>
+    <string name="send_request">Send Request By OKHttp</string>
+    <string name="send_request_retrofit">Send Request By Retrofit</string>
+    <string name="hello_android_network">Hello SJTU!</string>
+
 </resources>

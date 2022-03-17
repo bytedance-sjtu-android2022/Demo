@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bytedance.jstu.demo">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -43,6 +45,9 @@
         <activity android:name=".lesson4.handler.DownloadVideoActivity" />
         <activity android:name=".lesson4.thread.ThreadActivity" />
         <activity android:name=".lesson4.view.CustomViewActivity" />
+        <activity android:name=".lesson5.BasicNetActivity"/>
+        <activity android:name=".lesson5.OkHttpActivity"/>
+        <activity android:name=".lesson5.RetrofitActivity"/>
     </application>
 
 </manifest>
