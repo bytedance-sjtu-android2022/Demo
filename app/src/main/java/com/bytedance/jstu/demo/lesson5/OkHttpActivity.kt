@@ -75,6 +75,7 @@ class OkHttpActivity : AppCompatActivity() {
         val url = "https://movie.querydata.org/api?id=25845392"
         request(url, object : Callback {
             override fun onFailure(call: Call, e: IOException) {
+                e.printStackTrace()
                 updateShowTextView(e.message.toString(), false)
             }
 
