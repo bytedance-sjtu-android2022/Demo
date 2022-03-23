@@ -3,6 +3,9 @@
     package="com.bytedance.jstu.demo">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
     <application
         android:allowBackup="true"
@@ -49,6 +52,18 @@
         <activity android:name=".lesson5.BasicNetActivity"/>
         <activity android:name=".lesson5.OkHttpActivity"/>
         <activity android:name=".lesson5.RetrofitActivity"/>
+        <activity android:name=".lesson6.StorageActivity"/>
+        <activity android:name=".lesson6.file.FileActivity"/>
+        <activity android:name=".lesson6.sp.SPActivity"/>
+        <activity android:name=".lesson6.db.DBActivity"/>
+        <activity android:name=".lesson6.cp.CPActivity"/>
+        <activity android:name=".lesson6.cp.ReadContactsActivity"/>
+        <provider
+            android:authorities="com.bytedance.jstu.demo.provider"
+            android:name=".lesson6.cp.MyProvider"
+            android:enabled="true"
+            android:exported="true">
+        </provider>
     </application>
 
 </manifest>

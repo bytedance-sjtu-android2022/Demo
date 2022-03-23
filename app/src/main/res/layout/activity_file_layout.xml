@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/input_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/store_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="存储到文件"/>
+
+    <Button
+        android:id="@+id/append_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="追加内容到文件"/>
+
+    <Button
+        android:id="@+id/read_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取文件内容"/>
+
+    <TextView
+        android:id="@+id/file_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:hint="文件内容为："/>
+
+</LinearLayout>
