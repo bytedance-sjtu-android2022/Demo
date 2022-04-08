@@ -58,6 +58,13 @@
         <activity android:name=".lesson6.db.DBActivity"/>
         <activity android:name=".lesson6.cp.CPActivity"/>
         <activity android:name=".lesson6.cp.ReadContactsActivity"/>
+        <activity android:name=".lesson7.BaseMultimediaActivity"/>
+        <activity android:name=".lesson7.GlideActivity"/>
+        <activity android:name=".lesson7.FrescoImageActivity"/>
+        <activity android:name=".lesson7.MediaPlayerActivity"/>
+        <activity android:name=".lesson7.VideoActivity"/>
+        <activity android:name=".lesson7.CanvasActivity"/>
+        <activity android:name=".lesson7.ImageActivity"/>
         <provider
             android:authorities="com.bytedance.jstu.demo.provider"
             android:name=".lesson6.cp.MyProvider"
